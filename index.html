@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TheRookieArchive | Sports Cards</title>
+<meta name="description" content="Sports cards from TheRookieArchive. Rookies, inserts and singles, shipped from our Etsy shop.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🃏</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ECEFE8; --ink:#16201A; --muted:#5E6A62; --field:#1F5B3A; --tag:#F2C230; --card:#FBFCF9; --line:#CBD1C6;
+  --head:'Barlow Condensed','Arial Narrow',Impact,sans-serif; --body:'Newsreader',Georgia,serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#101712; --ink:#E9EEE6; --muted:#9AA79E; --field:#3E9A68; --card:#18221B; --line:#2B382F}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:19px/1.6 var(--body)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--tag);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font:800 26px var(--head);letter-spacing:.02em;text-decoration:none}
+nav a{margin-left:22px;text-decoration:none;font-size:17px}
+nav a:hover{text-decoration:underline}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center;padding:56px 0 72px}
+h1{font:800 clamp(56px,10vw,128px)/.88 var(--head);margin:0 0 22px;letter-spacing:-.01em}
+.hero p{max-width:34ch;margin:0 0 28px;font-size:22px}
+.btn{display:inline-block;background:var(--field);color:#fff;padding:14px 26px;font:600 22px var(--head);letter-spacing:.03em;text-decoration:none;border-radius:4px}
+.btn:hover{filter:brightness(1.12)}
+.slab{justify-self:center;width:min(300px,80%);aspect-ratio:5/7;background:var(--card);border:2px solid var(--ink);border-radius:10px;padding:14px;transform:rotate(3deg);box-shadow:10px 10px 0 var(--field)}
+.slab .face{height:100%;border:2px solid var(--field);border-radius:4px;display:flex;flex-direction:column;justify-content:space-between;padding:14px;background:repeating-linear-gradient(135deg,transparent 0 14px,rgba(31,91,58,.08) 14px 28px)}
+.slab b{font:800 40px/1 var(--head)}
+.slab span{font:600 18px var(--head);color:var(--muted)}
+section{padding:56px 0;border-top:2px solid var(--ink)}
+h2{font:800 clamp(38px,6vw,60px)/1 var(--head);margin:0 0 10px}
+.sub{color:var(--muted);margin:0 0 34px;max-width:52ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:22px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column}
+.thumb{aspect-ratio:5/6;display:grid;place-items:center;background:var(--line);position:relative}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.thumb .ph{width:52%;aspect-ratio:5/7;border:2px solid var(--ink);border-radius:6px;background:var(--card)}
+.price{position:absolute;right:10px;top:10px;background:var(--tag);color:#16201A;font:800 20px var(--head);padding:3px 10px;border-radius:3px}
+.info{padding:14px 16px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.info h3{font:600 24px/1.1 var(--head);margin:0}
+.info p{margin:0;font-size:16px;color:var(--muted);flex:1}
+.info a{margin-top:8px;font:600 19px var(--head);letter-spacing:.03em;color:var(--field);text-decoration:none;border-bottom:2px solid var(--field);align-self:flex-start}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px}
+.steps h3{font:600 26px var(--head);margin:0 0 4px}
+.steps p{margin:0;color:var(--muted)}
+footer{border-top:2px solid var(--ink);padding:28px 0 44px;color:var(--muted);font-size:16px}
+@media (max-width:760px){.hero{grid-template-columns:1fr;padding-top:28px}.slab{order:-1;width:min(220px,60%)}nav a:first-child{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="#top">TheRookieArchive</a>
+    <nav><a href="#shop">Shop</a><a href="#how">How to buy</a><a href="#about">About</a></nav>
+  </header>
 
+  <div class="hero" id="top">
+    <div>
+      <h1>Find the card you were missing.</h1>
+      <p>Rookies, inserts and singles for collectors, listed one by one and shipped carefully.</p>
+      <a class="btn" href="#shop">Browse the cards</a>
+    </div>
+    <div class="slab" aria-hidden="true"><div class="face"><b>ROOKIE</b><span>Add your best card here</span></div></div>
+  </div>
+
+  <section id="shop">
+    <h2>Latest cards</h2>
+    <p class="sub">Every card opens its listing on Etsy, where you check out securely.</p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="how">
+    <h2>How to buy</h2>
+    <div class="steps">
+      <div><h3>Pick a card</h3><p>Tap any card to open its listing with full photos and condition notes.</p></div>
+      <div><h3>Check out on Etsy</h3><p>Etsy handles payment, so your purchase is protected.</p></div>
+      <div><h3>We ship it safe</h3><p>Cards go out in a sleeve, a top loader and a rigid mailer.</p></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About the shop</h2>
+    <p class="sub">TheRookieArchive is a small sports card shop built by a collector. Questions about a card, a combined shipping deal or a custom lot? Message us on Etsy and we will get back to you.</p>
+    <a class="btn" id="shopLink" href="#">Visit the Etsy shop</a>
+  </section>
+</div>
+<footer><div class="wrap">© <span id="yr"></span> TheRookieArchive. Not affiliated with any league, team or card manufacturer.</div></footer>
+
+<script>
+var SHOP_URL = "https://www.etsy.com/shop/TheRookieArchive";
+var PRODUCTS = [
+  {name:"Sample Rookie Card #1", detail:"Mint condition, sleeved and top-loaded.", price:"$12.00", image:"", url:SHOP_URL},
+  {name:"Sample Rookie Card #2", detail:"Near mint, centered well.", price:"$8.50", image:"", url:SHOP_URL},
+  {name:"Sample Insert Card", detail:"Limited insert, numbered.", price:"$25.00", image:"", url:SHOP_URL},
+  {name:"Sample Starter Lot", detail:"10 assorted cards, great for new collectors.", price:"$15.00", image:"", url:SHOP_URL}
+];
+
+var grid = document.getElementById("grid");
+PRODUCTS.forEach(function(p){
+  var d = document.createElement("article");
+  d.className = "item";
+  var thumb = document.createElement("div");
+  thumb.className = "thumb";
+  if (p.image) { var im = document.createElement("img"); im.src = p.image; im.alt = p.name; im.loading = "lazy"; thumb.appendChild(im); }
+  else { var ph = document.createElement("div"); ph.className = "ph"; thumb.appendChild(ph); }
+  var pr = document.createElement("span"); pr.className = "price"; pr.textContent = p.price; thumb.appendChild(pr);
+  var info = document.createElement("div"); info.className = "info";
+  var h = document.createElement("h3"); h.textContent = p.name;
+  var t = document.createElement("p"); t.textContent = p.detail;
+  var a = document.createElement("a"); a.href = p.url; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Buy on Etsy";
+  info.appendChild(h); info.appendChild(t); info.appendChild(a);
+  d.appendChild(thumb); d.appendChild(info);
+  grid.appendChild(d);
+});
+document.getElementById("shopLink").href = SHOP_URL;
+document.getElementById("shopLink").target = "_blank";
+document.getElementById("yr").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
